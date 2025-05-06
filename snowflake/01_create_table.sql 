@@ -1,0 +1,8 @@
+
+CREATE OR REPLACE TABLE spotify_tracks (
+track_id STRING,
+track_name STRING,
+artist_name STRING,
+album_name STRING,
+release_date STRING
+);
