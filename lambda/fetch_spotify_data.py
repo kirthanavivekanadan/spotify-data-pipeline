@@ -6,8 +6,8 @@ from datetime import datetime
 def lambda_handler(event, context):
 
     # Spotify API credentials
-    CLIENT_ID = 'a47c9cdf618344c7b81ea3648f2eb4fc'  # Replace with your actual client ID
-    CLIENT_SECRET = 'dfa80d8be05c467c955855fcd289e142'  # Replace with your actual client secret
+    CLIENT_ID = ''  # Replace with your actual client ID
+    CLIENT_SECRET = ''  # Replace with your actual client secret
     REDIRECT_URI = 'http://localhost:8888/callback'
 
     # Get access token
