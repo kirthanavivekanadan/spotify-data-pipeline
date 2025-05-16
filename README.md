@@ -10,7 +10,7 @@ This project fetches data from the Spotify API, loads the data into an S3 bucket
 4. **S3**: Data is stored as JSON files in an S3 bucket.
 5. **Snowflake**: Snowflake is used as the target for data storage. The data is loaded into Snowflake via a Snowflake Storage Integration.
 
-## 🗺️ Architecture Diagram
+## Architecture Diagram
 
 ![Spotify Data Pipeline Architecture](architecture_diagram.png)
 
